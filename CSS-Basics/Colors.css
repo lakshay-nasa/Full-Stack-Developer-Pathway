@@ -1,0 +1,20 @@
+/* Types Of Colors*/
+
+
+/* 1. RGB ---> Red, Green, Blue*/
+    .RGB{
+        color: rgb(110, 110, 175);
+
+    }
+
+
+/* 2. HSX ---> Use Hex Code #@@@@@@@*/
+    .HEX{
+        color: #42cf17;
+    }
+
+
+/* 3. HSL ---> HSL values */
+    .HSL{
+        color: hsl(0, 85%, 46%);
+    }

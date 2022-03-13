@@ -1,0 +1,40 @@
+/* While laying out a document, the browser's rendering engine represents each element as a rectangular box. */
+
+    /* Height and Width */
+    .setting-height-width{
+        background-color: indigo;
+        height: 250px;
+        width: 250px;
+        /* margin: 30px; */
+        /* padding: 20px; */
+    }
+
+    /* Margin and Padding */
+    .setting-margin-padding{
+        background-color: lightcoral;
+        margin: 100px;
+        padding: 50px;
+
+        /* Set different margin/padding together ---> TRBL (Clockwise)*/
+        margin: 8px 12px 16px 20px ;
+        padding: 8px 12px 16px 20px ;
+
+        /* we can also set margin/padding individually */
+        /* margin-top: 80px;
+        margin-bottom: 80px;
+        margin-left: 80px;
+        margin-right: 80px; */
+    }
+
+    /* Adding Border */
+    .setting-border{
+        border: 5px solid greenyellow;
+        /* border-width: 7px; */
+        /* border-color: red; */
+        /* border-style: dashed; */
+        /* border-radius: 20px; */
+    }
+
+    /* Box Sizing---> property sets how the total width and height of an element is calculated. */
+
+    /* Margin collapse */

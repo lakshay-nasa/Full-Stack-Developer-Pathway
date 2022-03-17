@@ -1,0 +1,46 @@
+/*  CSS for Navbar ----->  */ 
+
+.v-navbar{
+    display: block;
+}
+
+ul{
+    list-style-type: None;
+    margin: 0;
+    padding: 0;
+    background-color: #d0e0e0;
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+li a{
+    margin: 1px;
+    padding: 16px 32px;
+    border: 1px solid darkslategray;
+    display:block;
+    color: black;
+    font-size: large;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover:not(#home){    /* It means that when any a tag is hovered that doesn't have 'home' class/id it should run that code. */
+    background-color: black;
+    color: white;
+}
+
+li a#home{
+    background-color: rgb(2, 2, 2);
+    color: white;
+}
+
+
+/*  CSS for Main Page ----->  */ 
+
+.m-page{
+    margin-left: 25%;
+    padding: 2px 20px;
+    text-align: center;
+}

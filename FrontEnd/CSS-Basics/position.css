@@ -1,0 +1,97 @@
+/* CSS Position Property */
+
+
+/* Static Position ---> Like a default position */
+
+.static-position{
+    text-align: center;
+}
+
+.box1{
+    text-align: center;
+    background-color: brown;
+    width: 50vw;
+    height: 25vh;
+    margin: auto;
+}
+
+.box2{
+    background-color: blueviolet;
+    width: 50%;
+    height: 50%;
+    position: static;
+    top: 50px; /* Top, bottom etc doesn;'t work*/
+}
+
+
+
+/* Static Relative */
+
+.relative-position{
+    text-align: center;
+}
+
+.R-box1{
+    text-align: center;
+    background-color: rgb(23, 233, 23);
+    width: 50vw;
+    height: 25vh;
+    margin: auto;
+}
+
+.R-box2{
+    background-color: blueviolet;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    top: 50px;  /* Top, bottom etc work*/
+}
+
+
+
+/* Static Absolute ---> "The element is positioned relative to its first positioned (not static) ancestor element".*/
+
+.absolute-position{
+    text-align: center;
+}
+
+.A-box1{
+    text-align: center;
+    background-color: rgb(255, 115, 0);
+    width: 50vw;
+    height: 25vh;
+    margin: auto;
+    position: relative; /*We set 'A-box1'as non static element*/
+}
+
+.A-box2{
+    background-color: blueviolet;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 50px;  /* Top, bottom etc work*/
+}
+
+
+
+
+/* Sticky Position*/
+
+.sticky-position{
+    background-color: rgb(70, 67, 67);
+    color: white;
+    height: 80px;
+    position: sticky;
+    top: 0;
+}
+
+/* Fixed Position */
+.fixed-Position{
+    background-color: rgb(100, 0, 62);
+    color: white;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

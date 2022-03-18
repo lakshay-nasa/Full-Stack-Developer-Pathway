@@ -35,6 +35,21 @@
         /* border-radius: 20px; */
     }
 
-    /* Box Sizing---> property sets how the total width and height of an element is calculated. */
+    /* Box Sizing ---> property sets how the total width and height of an element is calculated. */
 
-    /* Margin collapse */
+    .box-sizing{
+        text-align: center;
+    }
+
+    .box-sizing-parent{
+        border: solid 8px red;
+        width: 50%;
+    }
+
+    .box-sizing-child{
+        box-sizing: border-box;
+        border: solid 8px blue;
+        width: 100%;
+    }
+
+    /* Margin collapse ----> The top and bottom margins of blocks are sometimes combined (collapsed) into a single margin whose size is the largest of the individual margins (or just one of them, if they are equal), a behavior known as margin collapsing. */

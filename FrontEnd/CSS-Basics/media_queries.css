@@ -1,0 +1,24 @@
+/* CSS Media Queries --->  Media queries are useful when you want to modify your site or app depending on a device's general type (such as print vs. screen) or specific characteristics and parameters (such as screen resolution or browser viewport width). */
+
+
+.cover{
+    background-color: blueviolet;
+    font-size: x-large;
+
+
+
+}
+
+
+@media only screen and (max-width: 800px){
+    .cover{
+        background-color: red;
+        visibility: hidden;
+    }
+
+    .cover:after{
+        visibility: visible;
+        background-color: red;
+        content: "Warning! Increase the window size.";
+    }
+}

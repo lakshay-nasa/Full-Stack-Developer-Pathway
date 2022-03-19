@@ -1,0 +1,48 @@
+/* Flex Box ---> */
+
+
+
+.flex-container{
+    /* background-color: rgb(236, 176, 10) */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;            /* Aligns flex items along the main axis of the current line of the flex container.*/
+    background-color: rgb(31, 25, 25);
+    height: 80vh;
+    align-items: center;                /* Define items along cross axis*/
+    align-content: center;              /* Aligns a flex container’s lines within the flex container when there is extra space in the cross-axis, similar to how 'justify-content' aligns individual items within the main-axis.*/
+}
+
+
+.box1{
+    background-color: rgb(236, 176, 10);
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    order: 3;                             /*The order CSS property sets the order to lay out an item in a flex or grid container. Items container are sorted by ascending order value and then by their source code order.*/
+    /* align-self: flex-end; */           /*Allows the default alignment along the cross axis to be overridden for individual flex items. (Not works with align-content)*/
+        flex-grow: 2;                     /*The flex-grow property specifies how much the item will grow relative to the rest of the flexible items inside the same container. ( If the element is not a flexible item, the flex-grow property has no effect. --> Width, height should not be fixed)*/
+        flex-shrink: 2;                   /*The flex-shrink CSS property sets the flex shrink factor of a flex item. If the size of all flex items is larger than the flex container, items shrink to fit according to flex-shrink.*/
+}
+
+.box2{
+    background-color: rgb(236, 176, 10);
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+}  
+
+.box3{
+    background-color: rgb(236, 176, 10);
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+}
+
+.box4{
+    background-color: rgb(236, 176, 10);
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+}

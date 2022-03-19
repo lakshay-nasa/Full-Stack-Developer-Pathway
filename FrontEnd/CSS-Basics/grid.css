@@ -1,17 +1,34 @@
+/* CSS Grid ----> */
+
+
 .container{
     display: grid;
-    background-color: antiquewhite;
+    background-color: rgb(235, 195, 144);
+    height: 80vh;
     /* grid-template-columns: auto auto; */
-    grid-template-columns: auto auto 25px;
-    grid-template-rows: 200px 250px auto;
+    /* grid-template-columns: auto auto 25px; */
+    /* grid-template-rows: 50px 75px auto; */
+    grid-template-columns: auto auto auto auto;
     /* grid-row-gap: 20px; */
     /* grid-column-gap: 20px; */
-    grid-gap: 100px 50px;  /*(Row column ---> if any one provided than it will set both gaop same)*/
+    grid-gap: 50px 25px;        /*(Row column ---> if any one provided than it will set both gaop same)*/
     /* justify-content: space-evenly; */
-    align-content: center;
+    /* justify-content: center; */
+    /* align-content: center; */
 }
 
 .item{
     background-color: rgb(107, 107, 223);
     border: 2px solid rgb(223, 125, 125);
+    
+}
+
+/* Properties for grid item ----> */
+
+.item1{
+    background-color: rgb(107, 107, 223);
+    border: 2px solid rgb(223, 125, 125);
+    grid-column: 1 / 4;         /* The grid-column CSS shorthand property specifies a grid item's size and location within a grid column by contributing a line, a span, or nothing (automatic) to its grid placement, thereby specifying the inline-start and inline-end edge of its grid area. */
+    grid-row: 1 / 4;            /* The grid-row CSS shorthand property specifies a grid item's size and location within the grid row by contributing a line, a span, or nothing (automatic) to its grid placement, thereby specifying the inline-start and inline-end edge of its grid area. */
+    grid-row: 2/ span 3;
 }

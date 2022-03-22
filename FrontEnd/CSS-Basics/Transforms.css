@@ -1,6 +1,6 @@
 /* CSS Transforms ---> The transform CSS property lets you rotate, scale, skew, or translate an element. */
 
-/* 1.    CSS 2D Transforms */
+/* 1.    CSS 2D Transforms ---> It can chnage x,y-axis only*/
 
 .normal-box{
     margin: 80px;
@@ -34,3 +34,28 @@
     /* transform: skewX(40deg); */
     
 }
+
+
+/* 2.    CSS 3D Transforms ---> It can chanage x,y as well z axis.*/
+
+
+.ThreeD-box{
+    margin: 80px;
+    padding: 20px;
+    background-color: rgb(49, 49, 226);
+    border: 4px solid black;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    
+    /* Rotates an element around the horizontal axis. */
+    /* transform: rotatex(150deg); */
+    
+    /* Rotates an element around the vertical axis. */
+    /* transform: rotateY(120deg); */
+
+    /* Rotates an element around the z-axis axis. */
+    /* transform: rotate(120deg); */
+
+}
+

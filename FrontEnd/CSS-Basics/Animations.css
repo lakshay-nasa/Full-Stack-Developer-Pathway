@@ -1,0 +1,34 @@
+.box{
+    margin: 20px;
+    padding-top: 20px;
+    background-color: rgb(173, 105, 236);
+    border: 4px solid rgb(0, 0, 0);
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    /* justify-content: center; */
+    animation-name: Animate;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    
+}
+
+@keyframes Animate {
+    from{background-color: rgb(255, 51, 0); width: 140px; height: 50px}
+    to{ background-color: rgb(87, 55, 230);
+        width: 280px;
+        height: 100px;
+        font-size: xx-large;
+    }
+}
+
+/* @keyframes Animate {
+    from{
+        width: 140px;
+    }
+    to{
+        width: 280px
+    }
+} */

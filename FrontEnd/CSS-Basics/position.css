@@ -1,4 +1,7 @@
 /* CSS Position Property */
+/* ----> The position CSS property sets how an element is positioned in a document. The top, right, bottom, and left properties determine the final location of positioned elements. */
+
+
 
 
 /* Static Position ---> Like a default position */
@@ -25,6 +28,7 @@
 
 
 
+
 /* Static Relative */
 
 .relative-position{
@@ -46,6 +50,7 @@
     position: relative;
     top: 50px;  /* Top, bottom etc work*/
 }
+
 
 
 
@@ -85,7 +90,11 @@
     top: 0;
 }
 
+
+
+
 /* Fixed Position */
+
 .fixed-Position{
     background-color: rgb(100, 0, 62);
     color: white;

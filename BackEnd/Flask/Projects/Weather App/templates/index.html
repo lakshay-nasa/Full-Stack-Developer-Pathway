@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <title>Weather</title>
+</head>
+
+<body>
+    <form action="/" method="POST">
+        <div class="card">
+            <div class="search">
+                <input type="text" class="search-box" placeholder="Search City" name='city'>
+                <button type="submit">Search</button>
+            </div>
+    </form>
+    <div class="weather-details">
+        <h2 class="city">
+            Weather in {{city}}
+        </h2>
+        <h1 class="temp">
+            {{temp}} &#8451
+        </h1>
+        <!-- <div class="flex">
+                <img src="" alt="">
+                <div class="description">Cloudy</div>
+            </div> -->
+        <div class="humidity">
+            Humidity: {{humidity}} %
+        </div>
+        <!-- <div class="wind"> Wind Speed: 7.8Km</div> -->
+    </div>
+    </div>
+</body>
+
+</html>

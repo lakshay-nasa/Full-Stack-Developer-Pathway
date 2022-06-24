@@ -6,7 +6,7 @@ import random
 app = Flask(__name__)
 
 # Access Key
-client_id = "c5AijfSm_8b_JsYU3kuYBtTRdM9Lj_KdOsveYSZQzL8"
+client_id = "Access key"
 
 @app.route('/', methods=['GET', 'POST'])
 def getImage():

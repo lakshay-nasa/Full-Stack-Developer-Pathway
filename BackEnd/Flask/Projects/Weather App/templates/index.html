@@ -20,7 +20,7 @@
 </style>
 
 <body>
-    <div class="loader">
+    <div id="loader">
         <div>
 
         </div>
@@ -58,6 +58,14 @@
             <!-- <div class="wind"> Wind Speed: 7.8Km</div> -->
         </div>
     </div>
+    <script>
+        var loader = document.getElementById("loader");
+
+        window.addEventListener("load", function(){
+            loader.style.display = "none";
+            loader.style.transitionDelay = "200s";
+        })
+    </script>
 </body>
 
 </html>

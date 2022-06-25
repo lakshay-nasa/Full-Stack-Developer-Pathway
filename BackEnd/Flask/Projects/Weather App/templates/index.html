@@ -11,21 +11,20 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
     <title>Weather</title>
 </head>
-
 <style>
     body {
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-image: url({{src}}),
-        linear-gradient(90deg, rgba(0, 15, 36, 1) 13%, rgba(121, 9, 103, 1) 100%, rgba(0, 212, 255, 1) 100%);
-        width: 100vw;
-        height: 100vh;
+        background-image: url({{src}});
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 </style>
 
 <body>
+    <div class="loader">
+        <div>
+
+        </div>
+    </div>
     <div class="card">
         <form action="/" method="POST">
             <div class="search">
@@ -38,10 +37,10 @@
                 {{caption1}} {{city}}
             </h2>
             <h1 class="temp">
-                {{temp}}
+                {{temp}} {{celsiusSymb}}
             </h1>
             <div class="weatherDescription">
-                <img src={{Icon}} alt="Weather-Icon">
+                <img src={{Icon}} alt=>
                 <div class="description">
                     {{wDesc}}
                 </div>

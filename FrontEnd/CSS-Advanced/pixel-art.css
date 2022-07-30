@@ -1,3 +1,11 @@
+/* 
+Got Inspiration from Ale Thomas blog -https://pokecoder.hashnode.dev/making-pixel-art-with-pure-css
+
+Pixel Art - We can use box-shadow's X and Y offsets property to create pixel-art with pure css.
+
+
+*/
+
 * {
     /* margin: 0; */
     /* padding: 0; */
@@ -12,6 +20,7 @@
 .pixel-hello {
     position: absolute;
     left: 5em;
+    /* CSS to create Hello pixel art*/
     box-shadow: 3px 6px 0 0 #9c27b0, 4px 6px 0 0 #9c27b0, 7px 6px 0 0 #9c27b0, 8px 6px 0 0 #9c27b0, 3px 7px 0 0 #9c27b0, 4px 7px 0 0 #9c27b0, 7px 7px 0 0 #9c27b0, 8px 7px 0 0 #9c27b0, 3px 8px 0 0 #9c27b0, 4px 8px 0 0 #9c27b0, 7px 8px 0 0 #9c27b0, 8px 8px 0 0 #9c27b0, 26px 8px 0 0 #9c27b0, 27px 8px 0 0 #9c27b0, 28px 8px 0 0 #9c27b0, 3px 9px 0 0 #9c27b0, 4px 9px 0 0 #9c27b0, 7px 9px 0 0 #9c27b0, 8px 9px 0 0 #9c27b0, 9px 9px 0 0 #9c27b0, 10px 9px 0 0 #9c27b0, 11px 9px 0 0 #9c27b0, 12px 9px 0 0 #9c27b0, 14px 9px 0 0 #9c27b0, 19px 9px 0 0 #9c27b0, 25px 9px 0 0 #9c27b0, 29px 9px 0 0 #9c27b0, 3px 10px 0 0 #9c27b0, 4px 10px 0 0 #9c27b0, 5px 10px 0 0 #9c27b0, 6px 10px 0 0 #9c27b0, 7px 10px 0 0 #9c27b0, 8px 10px 0 0 #9c27b0, 9px 10px 0 0 #9c27b0, 14px 10px 0 0 #9c27b0, 19px 10px 0 0 #9c27b0, 25px 10px 0 0 #9c27b0, 29px 10px 0 0 #9c27b0, 3px 11px 0 0 #9c27b0, 4px 11px 0 0 #9c27b0, 5px 11px 0 0 #9c27b0, 6px 11px 0 0 #9c27b0, 7px 11px 0 0 #9c27b0, 8px 11px 0 0 #9c27b0, 9px 11px 0 0 #9c27b0, 14px 11px 0 0 #9c27b0, 19px 11px 0 0 #9c27b0, 24px 11px 0 0 #9c27b0, 30px 11px 0 0 #9c27b0, 3px 12px 0 0 #9c27b0, 4px 12px 0 0 #9c27b0, 7px 12px 0 0 #9c27b0, 8px 12px 0 0 #9c27b0, 9px 12px 0 0 #9c27b0, 10px 12px 0 0 #9c27b0, 11px 12px 0 0 #9c27b0, 14px 12px 0 0 #9c27b0, 19px 12px 0 0 #9c27b0, 24px 12px 0 0 #9c27b0, 30px 12px 0 0 #9c27b0, 3px 13px 0 0 #9c27b0, 4px 13px 0 0 #9c27b0, 7px 13px 0 0 #9c27b0, 8px 13px 0 0 #9c27b0, 9px 13px 0 0 #9c27b0, 14px 13px 0 0 #9c27b0, 19px 13px 0 0 #9c27b0, 25px 13px 0 0 #9c27b0, 29px 13px 0 0 #9c27b0, 3px 14px 0 0 #9c27b0, 4px 14px 0 0 #9c27b0, 7px 14px 0 0 #9c27b0, 8px 14px 0 0 #9c27b0, 9px 14px 0 0 #9c27b0, 14px 14px 0 0 #9c27b0, 19px 14px 0 0 #9c27b0, 25px 14px 0 0 #9c27b0, 29px 14px 0 0 #9c27b0, 3px 15px 0 0 #9c27b0, 4px 15px 0 0 #9c27b0, 7px 15px 0 0 #9c27b0, 8px 15px 0 0 #9c27b0, 9px 15px 0 0 #9c27b0, 10px 15px 0 0 #9c27b0, 11px 15px 0 0 #9c27b0, 12px 15px 0 0 #9c27b0, 14px 15px 0 0 #9c27b0, 15px 15px 0 0 #9c27b0, 16px 15px 0 0 #9c27b0, 17px 15px 0 0 #9c27b0, 19px 15px 0 0 #9c27b0, 20px 15px 0 0 #9c27b0, 21px 15px 0 0 #9c27b0, 22px 15px 0 0 #9c27b0, 26px 15px 0 0 #9c27b0, 27px 15px 0 0 #9c27b0, 28px 15px 0 0 #9c27b0;
     height: 1px;
     width: 1px;
@@ -26,6 +35,7 @@
     width: 0.1em;
     color: red;
     box-shadow:
+    /* CSS to create Heart pixel art (From Ale Thomas Blog)*/
         /* 1st row */
         1px 0, 2px 0, 6px 0, 7px 0,
         /* 2nd row */
